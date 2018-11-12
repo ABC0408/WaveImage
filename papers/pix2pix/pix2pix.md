@@ -14,7 +14,9 @@ Training a conditional GAN to map edges→photo. The discriminator, D, learns to
 ## Objective
 The objective of a conditional GAN can be expressed as: <img src='cgan.png' width="400px" div align=right />
 <br/>
+<br/>
 To test the importance of conditioning the discriminator:<img src='gan.png' width="400px" div align=right />
+<br/>
 <br/>
 <br/>
 Mix the GAN objective with a more traditional loss: <img src='l1.png' width="400px" div align=right />
