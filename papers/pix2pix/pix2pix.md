@@ -27,6 +27,6 @@ Mix the GAN objective with a more traditional loss: <img src='l1.png' width="400
 Final objective is: <img src='final.png' width="400px" div align=right />
 
 ##  Network architectures
-** A defining feature of image-to-image translation problems
+**A defining feature of image-to-image translation problems
 is that they map a high resolution input grid to a high resolution
-output grid. **
+output grid.**
