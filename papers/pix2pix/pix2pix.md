@@ -12,15 +12,12 @@ Conditional adversarial nets are a general-purpose solution that appears to work
 Training a conditional GAN to map edges→photo. The discriminator, D, learns to classify between fake (synthesized by the generator) and real {edge, photo} tuples. The generator, G, learns to fool the discriminator. Unlike an unconditional GAN, both the generator and discriminator observe the input edge map.
 
 ## Objective
-The objective of a conditional GAN can be expressed as:
-  <img src='cgan.png' width="400px" div align=right />
-
-To test the importance of conditioning the discriminator:
- <img src='gan.png' width="400px" div align=right />
-
-
-It beneficial to mix the GAN objective with a more traditional loss: 
- <img src='l1.png' width="400px" div align=right />
- 
-Final objective is: 
-<img src='final.png' width="400px" div align=right />
+The objective of a conditional GAN can be expressed as: <img src='cgan.png' width="400px" div align=right />
+<br/>
+To test the importance of conditioning the discriminator:<img src='gan.png' width="400px" div align=right />
+<br/>
+<br/>
+Mix the GAN objective with a more traditional loss: <img src='l1.png' width="400px" div align=right />
+<br/>
+<br/>
+Final objective is: <img src='final.png' width="400px" div align=right />
