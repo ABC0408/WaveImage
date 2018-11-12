@@ -6,7 +6,7 @@ After convert audio to wave-image, now my task also change to image to image tra
 
 # Part 1:
 ## Papers
-1. - [ ] **Pix2Pix** Image-to-Image Translation with Conditional Adversarial Networks [[paper](https://arxiv.org/pdf/1611.07004.pdf)] [[code](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)] [notes]
+1. - [x] **Pix2Pix** Image-to-Image Translation with Conditional Adversarial Networks [[paper](https://arxiv.org/pdf/1611.07004.pdf)] [[code](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)] [[notes](./papers/pix2pix/pix2pix.md)]
 2. - [ ] **Pix2PixHD** High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs [[paper](https://arxiv.org/pdf/1711.11585.pdf)] [[code](https://github.com/NVIDIA/pix2pixHD)] [notes]
 3. - [ ] **CycleGAN** Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks [[paper](https://arxiv.org/pdf/1703.10593.pdf)] [[code](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)] [notes]
 4. - [ ] **BicycleGAN** Toward Multimodal Image-to-Image Translation [[paper](https://arxiv.org/pdf/1711.11586.pdf)] [[code](https://github.com/junyanz/BicycleGAN)] [notes]
