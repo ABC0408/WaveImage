@@ -8,3 +8,5 @@ results of the method on several. In each case we use the same architecture and 
 
 # Method
 
+<img src='img2.png' width="400px"/>
+Training a conditional GAN to map edges→photo. The discriminator, D, learns to classify between fake (synthesized by the generator) and real {edge, photo} tuples. The generator, G, learns to fool the discriminator. Unlike an unconditional GAN, both the generator and discriminator observe the input edge map.
